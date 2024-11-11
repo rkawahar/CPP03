@@ -6,7 +6,7 @@
 /*   By: kawaharadaryou <kawaharadaryou@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 13:52:17 by kawaharadar       #+#    #+#             */
-/*   Updated: 2024/11/11 15:13:19 by kawaharadar      ###   ########.fr       */
+/*   Updated: 2024/11/11 14:55:50 by kawaharadar      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,7 @@ void ScabTrap::attack(const std::string& target) {
 		std::cout << "ScabTrap " << _name << "don't have energy points." << std::endl;
 		return ;
 	}
-	std::cout << "ScabTrap " << _name << " attacks " << target << ": " << _attackDamage << " damages." << std::endl;
+	std::cout << "ScabTrap" << _name << " attacks " << target << ": " << _attackDamage << " damages." << std::endl;
 	this->_energyPoint--;
 	return ;
 }
